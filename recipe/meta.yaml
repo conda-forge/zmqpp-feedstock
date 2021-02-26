@@ -10,7 +10,7 @@ source:
   sha256: c1d4587df3562f73849d9e5f8c932ca7dcfc7d8bec31f62d7f35073ef81f4d29
 
 build:
-  number: 1
+  number: 2
   skip: True  # [win]
   run_exports:
     - {{ pin_subpackage('zmqpp', max_pin='x.x') }}
